@@ -1,0 +1,44 @@
+section.teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.card {
+  width: 20%;
+  /* height: 200px; */
+}
+
+.card.satu {
+  background-color: #f16363;
+  height: 150px;
+  padding-top: 10px;
+}
+
+.card.dua {
+  padding-top: 20px;
+  background-color: #ebca54;
+  height: 200px;
+}
+
+.card.tiga {
+  padding-top: 50px;
+  background-color: #61cb5f;
+  height: 250px;
+}
+
+.card.empat {
+  padding-top: 3px;
+  background-color: rgb(141, 141, 141);
+  height: 300px;
+}
+
+/* @media only screen and (min-width: 900px) {
+  section.teams {
+    flex-direction: row;
+  }
+
+  .card {
+    width: 25%;
+  }
+} */
